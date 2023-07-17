@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #D3D3D3;
+}
+
+
+
+@media screen and (min-width: 480px) {
+    #parent{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2vw;
+        row-gap: 2vw;
+        grid-auto-rows: 1fr;
+    }
+}
+
